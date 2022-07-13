@@ -1,0 +1,356 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0, auto;
+    height: 100%;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+
+.container1 {
+    margin: 0, auto;
+    background-image: url(./Images/img_1.1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width : 100%
+}
+
+
+
+.logo {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.logo-img {
+    width: 10vw;
+    height: 10vh;
+}
+
+.first-div {
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    display: grid;
+}
+
+.h1-div {
+    align-content: center;
+    justify-content: center;
+    width: 50vw;
+    margin: 20px;
+}
+
+.first-h1 {
+    text-align: center;
+    font-size: 8vh;
+}
+
+.input-div {
+    align-content: center;
+    justify-content: center;
+    width: 50vw;
+    display: flex;
+    margin: 20px;
+}
+
+.input-field {
+    border-bottom: 1px outset grey;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    width: 40vw;
+    padding: 10px;
+    margin: 10px;
+}
+
+input::placeholder {
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: 20px;
+}
+
+.button {
+    border: 1px inset #116dff;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(17, 109, 255);
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Edu TAS Beginner', cursive;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgba(17, 109, 255, 0.7);
+}
+
+.container2 {
+    background-image: url(./Images/img_2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width : 100%
+}
+
+.shoe-div {
+    display: flex;
+    align-content: start;
+    align-items: center;
+    height: 70%;
+    width: 30vw;
+    margin-left: 70px;
+}
+
+.h2-div {
+    display: grid;
+    align-items: center;
+    align-content: start;
+    justify-content: center;
+    row-gap: 10%;
+}
+
+.h2-div h2 {
+    font-size: 30px;
+    line-height: 3rem;
+    font-weight: 900;
+}
+
+.h2-div p {
+    font-size: 20px;
+    line-height: 2rem;
+}
+
+.container3 {
+    background-image: url(./Images/img_3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width : 100%
+}
+
+.yoga-div {
+    display: flex;
+    align-content: flex-end;
+    align-items: center;
+    justify-content: flex-end;
+    height: 70%;
+    width: -30vw;
+    margin-right: 70px;
+}
+
+.p-div {
+    display: grid;
+    align-items:end;
+    align-content: end;
+    justify-content:end;
+    row-gap: 10%;
+}
+
+.p-div h2 {
+    font-size: 30px;
+    line-height: 3rem;
+    font-weight: 900;
+}
+
+.p-div p {
+    font-size: 20px;
+    line-height: 2rem;
+}
+
+.container4 {
+    background-image: url(./Images/img_4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width : 100%
+}
+
+.container5 {
+    background-image: url(./Images/img_5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width : 100%
+}
+
+.container6 {
+    height: 30vh;
+    width: 100%;
+}
+
+.footer-table {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+span {
+    color: grey;
+}
+
+.star-margin {
+    margin-top: 70px;
+}
+
+.stars {
+    color: green;
+    font-size: 30px;
+    background-color: rgba(128, 128, 128, 0.5);
+    border-radius: 20px;
+}
+
+
+
+
+@media only screen and (max-width: 1228px) {
+   
+    .first-div {
+        align-items: center;
+        justify-content: center;
+        height: 70vh;
+        width: 100%;
+        display: grid;
+    }
+
+    
+    .yoga-div {
+        display: flex;
+        align-content: flex-end;
+        align-items: center;
+        justify-content: flex-end;
+        height: 70%;
+        width: -30vw;
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+
+    .first-div {
+        align-items: center;
+        justify-content: center;
+        height: 50vh;
+        width: 100%;
+        display: grid;
+    }
+
+    .yoga-div {
+        display: flex;
+        align-content: flex-end;
+        align-items: flex-end;
+        justify-content: flex-end;
+        height: 100vh;
+        width: -30vw;
+        margin-bottom: 70px;
+    }
+    
+}
+
+@media only screen and (max-width: 769px) {
+
+    .container1 {
+        margin: 0, auto;
+        background-image: url(./Images/img_1.png);
+        background-repeat: no-repeat;
+        background-size: 769px 763px;
+        height: 100vh;
+        width : 100%
+    }
+
+    .first-h1 {
+        text-align: center;
+        font-size: 5vh;
+    }
+    
+}
+
+@media only screen and (max-width: 480px) {
+
+    .container1 {
+        margin: 0, auto;
+        background-image: url(./mobile_images/img_1.jpg);
+        background-repeat: no-repeat;
+        background-size: 480px auto;
+        height: 100vh;
+        width : 100%
+    }
+
+    .first-div {
+        align-items: center;
+        justify-content: center;
+        height: 70vh;
+        width: 100%;
+        display: grid;
+    }
+
+    .container2 {
+        background-image: url(./mobile_images/img_2.jpg);
+        background-repeat: no-repeat;
+        background-size:  480px auto;
+        height: 100vh;
+        width : 100%
+    }
+
+    .h2-div h2 {
+        font-size: 25px;
+        line-height: 2rem;
+        font-weight: 900;
+        width: 50vh;
+    }
+    
+    .h2-div p {
+        font-size: 18px;
+        line-height: 1.5rem;
+    }
+
+    .shoe-div {
+        display: flex;
+        align-content: start;
+        align-items: flex-end;
+        height: 90vh;
+        width: 50vw;
+        margin-left: 20px;
+    }
+    
+    .container3 {
+        background-image: url(./mobile_images/img_3.jpg);
+        background-repeat: no-repeat;
+        background-size: 480px auto;
+        height: 100vh;
+        width : 100%
+    }
+
+    .yoga-div {
+        display: flex;
+        align-content: flex-end;
+        align-items: flex-end;
+        justify-content: flex-end;
+        height: 90vh;
+        width: -30vw;
+        margin-bottom: 70px;
+    }
+
+    .container4 {
+        background-image: url(./mobile_images/img_4.jpg);
+        background-repeat: no-repeat;
+        background-size: 480px auto;
+        height: 100vh;
+        width : 100%
+    }
+
+    .div-height {
+        height: 100vh;
+    }
+
+}
